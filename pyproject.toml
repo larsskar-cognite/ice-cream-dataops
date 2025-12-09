@@ -1,0 +1,17 @@
+[project]
+name = "ice-cream-dataops"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Lars Arne Skår",email = "lars.skar@cognite.com"}
+]
+readme = "README.md"
+requires-python = "^3.14"
+dependencies = [
+    "cognite-toolkit (>=0.7.28,<0.8.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
