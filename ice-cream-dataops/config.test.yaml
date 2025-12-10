@@ -18,6 +18,7 @@ variables:
         data_developer_source_id: ${DATA_DEVELOPER_SOURCE_ID}
 
       ice_cream_api:
+        assetsource_name: Ice Cream Factory API
         icapi_extractors_source_id: ${ICAPI_EXTRACTORS_SOURCE_ID}
         tokenUri: ${IDP_TOKEN_URL}
         cdfProjectName: ${CDF_PROJECT}
@@ -26,6 +27,8 @@ variables:
         icapi_trigger_client_secret: ${ICAPI_EXTRACTORS_CLIENT_SECRET}
         icapi_extractors_client_id: ${ICAPI_EXTRACTORS_CLIENT_ID}
         icapi_extractors_client_secret: ${ICAPI_EXTRACTORS_CLIENT_SECRET}
+        icapi_schedule_nightly: 1 0 * * *
+        icapi_pause_transformations: false
 
       use_cases:
         oee:
